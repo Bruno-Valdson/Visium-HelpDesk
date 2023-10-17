@@ -1,37 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-</head>
-<body>
-    <div class="main-dash">
-        <div class="top-bar-dash">
-
-        </div>
-        <div class="menu-dash">
-
-        </div>
-        <div class="home-dash">
-            <div class="">
-                <strong><h1>Dashboard</h1></strong>
-                <div>
-                    <button>Filtros</button>
-                    <button>Cadastro</button>
-                    <button>Notificações</button>
-                    <div>
-                        <p></p>
-                        <p></p>
-                    </div>
-                    <div>
-
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="../css/dash.css" />
+    </head>
+    <body>
+        <div class="content">
+            <nav class="main-dash">
+                <div class="home-dash">
+                    <div class="home-top-dash">
+                        <strong class="title-home">Chat</strong>
+                        <div class="info-home">
+                            <div id="outer">
+                                <div class="btn_slide btn_slide_down">NOVO</div>
+                            </div>
+                            <button class="btn btn-notificacoes"></button>
+                            <div class="info-user-home">
+                                <p class="name-user">Bruno Valdson</p>
+                                <p class="email-user">
+                                    bruno.valdson@outlook.com.br
+                                </p>
+                            </div>
+                            <button class="img-user-home">
+                                <img
+                                    src="../img/user_home.png"
+                                    alt="Imagem Perfil"
+                                />
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class=""></div>
-            <div class=""></div>
+            </nav>
+            <nav class="menu">
+                <ul>
+                    <li class="item-menu">
+                        <a href="http://">
+                            <span class="icon"></span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="http://">
+                            <span class="icon">
+                                <i class="bi bi-layout-text-window-reverse"></i>
+                            </span>
+                            <span class="txt-link">Dash</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="http://">
+                            <span class="icon">
+                                <i class="bi bi-headset"></i>
+                            </span>
+                            <span class="txt-link">Atendimentos</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="http://">
+                            <span class="icon">
+                                <i class="bi bi-whatsapp"></i>
+                            </span>
+                            <span class="txt-link">Chat</span>
+                        </a>
+                    </li>
+                    <div class="linha-menu"></div>
+                    <li class="item-menu">
+                        <a href="http://">
+                            <span class="icon">
+                                <i class="bi bi-people"></i>
+                            </span>
+                            <span class="txt-link">Clientes</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="http://">
+                            <span class="icon">
+                                <i class="bi bi-megaphone"></i>
+                            </span>
+                            <span class="txt-link">Avisos</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="http://">
+                            <span class="icon">
+                                <i class="bi bi-clipboard-data"></i>
+                            </span>
+                            <span class="txt-link">Relatórios</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="http://">
+                            <span class="icon">
+                                <i class="bi bi-gear"></i>
+                            </span>
+                            <span class="txt-link">Configurações</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
         </div>
-    </div>
-</body>
+
+        <script src="../script/menu.js"></script>
+    </body>
 </html>
