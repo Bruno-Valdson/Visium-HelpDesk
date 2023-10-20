@@ -20,7 +20,8 @@ body {
 div.content {
     display: flex;
     flex: 1 1 0%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 nav.menu {
@@ -73,12 +74,19 @@ strong.title-home{
     letter-spacing: 1.5px;
 }
 
+.main-dash{
+    position: fixed;
+    top: 0;
+    left: 200px;
+    overflow: hidden;
+    transition: 0.1s;
+}
 .sidebar-content {
     flex-grow: 1;
 }
 
 .home-dash {
-    width: 100vw;
+    width: 100%;
 }
 
 .home-top-dash {
