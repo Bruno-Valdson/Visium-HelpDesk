@@ -24,7 +24,7 @@ div.content {
 }
 
 nav.menu {
-    width: 45px;
+    width: 200px;
     height: 100%;
     background-color: #29454d;
     padding: 1.3%;
@@ -35,10 +35,6 @@ nav.menu {
     left: 0;
     overflow: hidden;
     transition: 0.1s;
-}
-
-nav.menu:hover {
-    width: 300px;
 }
 
 ul {
