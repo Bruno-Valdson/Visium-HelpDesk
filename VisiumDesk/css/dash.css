@@ -50,9 +50,6 @@ ul li {
     transition: 0.9s;
 }
 
-ul li.ativo {
-}
-
 ul li.item-menu:hover {
     background-color: rgba(2, 2, 2, 0.2);
 }
